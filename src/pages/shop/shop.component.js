@@ -7,7 +7,7 @@ const ShopPage = ({match}) => ( // because on our app.js shop is nested in a rou
    
             <div>
                 <Route exact path ={`${match.path}`} component = {CollectionsOverview}/>
-                <Route path ={`${match.path}/:categoryId`} component = {CollectionPage}/>
+                <Route path ={`${match.path}/:collectionId`} component = {CollectionPage}/>
             </div>
 
 )

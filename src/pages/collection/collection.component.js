@@ -25,4 +25,4 @@ const mapStateToProps = (state, ownProps) => ({// el segunto argumento son los p
     collection:selectCollection(ownProps.match.params.collectionId)(state) // recuerda que la funcion que se encuentra en mi shop Selector selectCollection me devuelve la funcion createSelector que a su vez toma como argumento el estado para devolver esa parte
 }) 
 
-export default connect (mapStateToProps)(CollectionPage);
+export default connect(mapStateToProps)(CollectionPage);
